@@ -1,0 +1,54 @@
+h1{
+    color: purple;
+    outline: solid 2px;
+    opacity: 0.3;
+}
+
+body{
+    background-color: #8C90D1;
+    margin: 10px;
+}
+
+/* *{
+    border: solid;
+} */
+
+.header{
+    background-color: rgb(182, 255, 255);
+    display: flex; 
+    justify-content: space-between;
+    border: solid 2px;
+    padding: 10px;
+    margin: 10px; 
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+
+}
+
+.grid{
+    color: #0130F5;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.item{
+    color: #54CDCA;
+    display: flex;
+    justify-content: space-evenly; 
+} 
+
+.footer{
+    background-color: #4B1328;
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
